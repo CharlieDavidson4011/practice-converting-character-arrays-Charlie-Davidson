@@ -28,10 +28,9 @@ const decodedMessages = messages.map(message => {
 console.log(decodedMessages);
 // Task 2: Write your own reverse messages
 const myMessages = [
-    "Believe in yourself and keep pushing forward!",
-    "Every day is a new opportunity to learn and grow.",
-    "Challenges are what make life interesting; overcoming them is what makes life meaningful.",
-    "Stay positive, work hard, and make it happen."
+    "I'm here to get a better job for a better life for my chihuahua!",
+    "Excellent motivation!",
+
 ];
 const myReversedMessages = myMessages.map(message => {
     return message.split('').reverse().join('');
